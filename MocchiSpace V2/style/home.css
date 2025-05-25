@@ -1,0 +1,380 @@
+/* NAVBAR */
+.navbar {
+    background-color: #f0f0ff;
+    border-bottom: 2px solid #c7d0ff;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #333;
+}
+
+.border-3 {
+    border-color: #c7d0ff !important;
+}
+
+.esci:hover {
+    background-color: #fafafa;
+    cursor: pointer;
+}
+
+/* HOME */
+.home-text {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.home-text h4 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 767px) {
+    .navbar-brand {
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #333;
+    }
+
+    .home-text h4 {
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+        font-size: 1.1rem;
+        line-height: 1.5;
+    }
+}
+
+.btn-inizia {
+    background-color: #6a73d6;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.btn-inizia:hover {
+    color: white;
+    background-color: #4f55c7;
+    box-shadow: 0 4px 10px rgba(106, 115, 214, 0.4);
+}
+
+.btn-account {
+    background-color: transparent;
+    color: #6a73d6;
+    border: 2px solid #6a73d6;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.btn-account:hover {
+    background-color: #f0f0ff;
+    color: #4f55c7;
+    border-color: #4f55c7;
+}
+
+/* BARRA SCORREVOLE */
+.barraScorrevole {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    border-bottom: 2px solid #c7d0ff;
+    border-top: 2px solid #c7d0ff;
+}
+
+.animazioneBarra {
+    padding: 10px;
+    display: inline-block;
+    white-space: nowrap;
+    animation: scrollLeft 20s linear infinite;
+}
+
+@keyframes scrollLeft {
+    0% {
+        transform: translateX(130%);
+    }
+    100% {
+        transform: translateX(-130%);
+    }
+}
+
+.animazioneBarra h5 {
+    display: inline-block;
+    margin: 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+/* FUNZIONI */
+.titolo {
+    margin-top: 8.5rem;
+}
+
+.cardfunzionalita img {
+    width: 75%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.cardfunzionalita {
+    border: 2px solid #c7d0ff;
+    border-radius: 3rem;
+}
+
+.cardfunzionalita:hover {
+    background-color: #f0f0ff;
+}
+
+@media (max-width: 767px) {
+    .cardtot {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-bottom: 1.5rem;
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cardfunzionalita img {
+        width: 60%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .testofunzionalita {
+        padding: 1rem;
+        font-size: 0.9rem;
+    }
+
+    .testofunzionalita h5 {
+        font-size: 1rem;
+    }
+
+    .cardfunzionalita {
+        padding: 0.5rem;
+    }
+}
+
+/* COME INIZIARE */
+.titolo2 {
+  margin-top: 15rem;
+  text-transform: uppercase;
+}
+
+.iniziare_punti h4 {
+    text-align: center;
+    color: #6a73d6;
+    text-transform: uppercase;
+}
+
+.iniziare_punti p {
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.iniziare_punti img {
+    width: 75%;
+    height: auto;
+}
+
+@media (max-width: 991.98px) {
+    .titolo2 {
+        margin-top: 8.5rem;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+    }
+    .iniziare_punti {
+        margin: 10px;
+        font-size: 0.95rem;
+    }
+
+    .iniziare_punti img {
+        display: block;
+        margin: 1.5rem auto 0 auto;
+        width: 75%;
+        height: auto;
+    }
+}
+
+
+/* SCEGLIERCI */
+.titolo3 {
+  margin-top: 15rem;
+  padding-top: 5rem;
+  text-transform: uppercase;
+}
+
+#perche-noi {
+  background-color: #ffffff;
+  transition: background-color 0.2s linear;
+}
+
+.perche-noi p {
+    padding-bottom: 5rem;
+    font-size: 1rem;
+    color: #444;
+    text-transform: none;
+    text-transform: uppercase;
+}
+
+.perche-noi strong {
+    color: #4f55c7;
+}
+
+.made {
+    color: red;
+}
+.in {
+    color: #f0f0ff;
+}
+.ita {
+    color: green;
+}
+
+@media (max-width: 991.98px) {
+    .perche-noi p {
+        margin: 10px;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .perche-noi img {
+        width: 75%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+}
+
+/* FRASE */
+.frase {
+    margin-bottom: 10rem;
+    padding: 10rem;
+    background-color: #6a73d6;
+}
+
+.frase h3 {
+    color: #fafafa;
+}
+
+.frase a {
+    padding: 12px 28px;
+    background-color: #f0f0ff;
+    color: #6a73d6;
+    border: 2px solid #f0f0ff;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.frase a:hover {
+    background-color: #6a73d6;
+    color: #f0f0ff;
+    border: 2px solid #f0f0ff;
+}
+
+@media (max-width: 767.98px) {
+  .frase {
+    padding: 4rem 1.5rem;
+    margin-bottom: 5rem;
+  }
+
+  .frase h3 {
+    font-size: 1.5rem;
+  }
+
+  .frase a {
+    font-size: 0.9rem;
+    padding: 10px 24px;
+  }
+}
+
+/* TEAM */
+#team {
+    margin-top: 18rem;
+    margin-bottom: 15rem;
+}
+
+.team-member img {
+    width: 75%;
+    height: auto;
+}
+
+@media (min-width: 992px) {
+
+    .team-member {
+        text-align: left;
+    }
+}
+
+@media (max-width: 767.98px) {
+    #team {
+        margin-top: 10rem;
+        margin-bottom: 10rem;
+    }
+}
+
+/* RAZZO */
+#razzo {
+  position: fixed;
+  bottom: 130px;
+  right: 25px;
+  display: none;
+  z-index: 999;
+  background-color: #6a73d6;
+  color: white;
+  border: none;
+  padding: 0.75rem 0.9rem;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(106, 115, 214, 0.4);
+}
+
+#razzo:hover {
+  background-color: #4f55c7;
+  transform: translateY(-4px);
+}
+
+@media (max-width: 991.98px) {
+    #razzo {
+        right: 20px;
+        bottom: 145px;
+    }
+}
+
+/* FOOTER */
+.footer {
+    background-color: #f0f0ff;
+    border-top: 2px solid #c7d0ff !important;
+    color: #333;
+}
+
+.footer-link {
+    color: #6a73d6;
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #4f55c7;
+    text-decoration: underline;
+}

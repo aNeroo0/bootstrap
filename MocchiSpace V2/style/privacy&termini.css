@@ -1,0 +1,72 @@
+/* Stile generale */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9faff;
+  color: #333;
+  line-height: 1.7;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container principale */
+.container {
+  max-width: 900px;
+  margin: 5rem auto;
+  padding: 2rem 1.5rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Titoli */
+h1 {
+  color: #4f55c7;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: #6a73d6;
+  font-size: 1.25rem;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+/* Paragrafi */
+p {
+  font-size: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+/* Link */
+a {
+  color: #4f55c7;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 767.98px) {
+  .container {
+    margin: 3rem 1rem;
+    padding: 1.5rem 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+}
