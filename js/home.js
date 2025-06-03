@@ -26,7 +26,7 @@ window.addEventListener('DOMContentLoaded', () => {
       razzo.style.display = 'none';
     }
 
-    // Effetto sfondo dinamico "Perché scegliere noi"
+    // sfondo Perché scegliere noi
     const percheSection = document.getElementById('perche-noi');
     if (percheSection) {
       const rect = percheSection.getBoundingClientRect();
