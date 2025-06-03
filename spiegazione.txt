@@ -1,1 +1,1 @@
-
+Sono partito creando il file index e inserendo al suo interno il template per partire con i collegamenti allo style e al js di bootstrap. Ho cambiato il 
